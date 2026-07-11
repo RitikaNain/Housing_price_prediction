@@ -1,21 +1,22 @@
-# Housing_price_prediction
-# Housing Price Prediction using Machine Learning
-
-## Project Status
-
-Currently under development.
+# 🏠 Housing Price Prediction using Machine Learning
 
 ## Overview
 
-This project aims to develop a machine learning model capable of predicting house prices based on various property features. The objective is to analyze the relationship between different housing attributes and selling price to build an accurate regression model.
+This project develops a machine learning regression model to predict residential property prices based on various housing attributes. Multiple regression algorithms are implemented, tuned, and compared to identify the model that provides the best prediction performance.
 
-## Objectives
+---
 
-- Predict house prices using property features.
-- Perform data preprocessing and exploratory data analysis.
-- Train and compare multiple regression models.
-- Evaluate model performance using standard regression metrics.
-- Build a reusable prediction pipeline.
+## Features
+
+- Data preprocessing and cleaning
+- Exploratory Data Analysis (EDA)
+- One-Hot Encoding for categorical variables
+- Feature Scaling using StandardScaler
+- Model training and comparison
+- Hyperparameter tuning
+- Interactive house price prediction
+
+---
 
 ## Dataset
 
@@ -23,32 +24,62 @@ The dataset contains information about residential properties and their selling 
 
 ### Input Features
 
-Examples of features include:
-
 - Area
-- Number of Bedrooms
-- Number of Bathrooms
-- Number of Floors
+- Bedrooms
+- Bathrooms
+- Stories
+- Main Road
+- Guest Room
+- Basement
+- Hot Water Heating
+- Air Conditioning
 - Parking
+- Preferred Area
 - Furnishing Status
-- Other property-related attributes
 
 ### Target Variable
 
 - House Price
 
+---
+
+## Machine Learning Models Used
+
+- Multiple Linear Regression
+- Polynomial Regression
+- Ridge Regression
+- Decision Tree Regression
+- Random Forest Regression
+
+---
+
+## Model Evaluation
+
+Models are evaluated using:
+
+- Root Mean Squared Error (RMSE)
+- R² Score
+
+The best-performing model is selected based on validation and test performance.
+
+---
+
 ## Project Workflow
 
-The project involves:
+1. Load and inspect the dataset
+2. Data preprocessing
+3. Exploratory Data Analysis (EDA)
+4. Feature encoding
+5. Train / Validation / Test split
+6. Feature scaling
+7. Model training
+8. Hyperparameter tuning
+9. Model comparison
+10. House price prediction
 
-- Data preprocessing
-- Exploratory Data Analysis (EDA)
-- Feature Engineering
-- Model Training
-- Model Evaluation
-- Prediction
+---
 
-## Tools & Libraries
+## Technologies Used
 
 - Python
 - NumPy
@@ -57,6 +88,17 @@ The project involves:
 - Scikit-learn
 - Jupyter Notebook
 
-## Goal
+---
 
-To develop a machine learning model capable of accurately estimating house prices based on property characteristics.
+## Future Improvements
+
+- Deploy the model as a web application using Streamlit or Flask
+- Experiment with additional regression algorithms
+- Perform advanced feature engineering
+- Train on larger real-estate datasets
+
+---
+
+## Author
+
+**Ritika Nain**
